@@ -1,0 +1,37 @@
+=== TCP Traffic Analysis Results ===
+
+Analysis by:  
+
+Overall Statistics:
+total_packets: 126,169,702.00
+total_bytes: 74,908,455,822.00
+avg_packets_per_min: 34,892.06
+max_packets_per_min: 3,543,441.00
+min_packets_per_min: 1.00
+std_dev_packets: 168,394.49
+total_minutes: 3,616.00
+anomalies_detected: 327.00
+
+Traffic Classification Summary:
+traffic_class
+Medium       1316
+High         1282
+Low           691
+Very High     327
+
+VFDT Classification Summary:
+vfdt_class
+Q1    904
+Q2    904
+Q3    904
+Q4    904
+
+Anomalies Detected: 327
+
+Top 5 Anomalous Periods:
+               timestamp  packets       bytes traffic_class vfdt_class
+3155 2004-12-15 19:42:00  3543441   716387073     Very High         Q4
+2743 2004-12-16 21:17:00  2863382  2504789217     Very High         Q4
+1233 2004-10-04 21:58:00  2655969  2477431415     Very High         Q4
+1601 2004-12-16 05:46:00  2500356  1890135392     Very High         Q4
+1769 2004-12-15 22:13:00  2176199   579011461     Very High         Q4
